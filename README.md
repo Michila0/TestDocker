@@ -1,6 +1,7 @@
 # Docker
-This is a demo to explain Docker and Docker Compose.
+ This is a demo to explain Docker and Docker Compose.
 
+---
 1. How to build the docker image? 
 * ans:  `docker build -t demo:v1 `
 
