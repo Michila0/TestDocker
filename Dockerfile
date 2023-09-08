@@ -1,3 +1,8 @@
-FROM nginx
+FROM ubuntu
+COPY HTML /var/
 
-COPY HTML /usr/share/nginx/html
+RUN apt-get update
+RUN apt-get install -y nginx
+
+
+CMD ["echo","Hello"]
