@@ -1,3 +1,3 @@
-FROM alpine:3.14
+FROM nginx
 
-CMD ["echo","Hello  world"]
+COPY HTML /usr/share/nginx/html
