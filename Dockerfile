@@ -1,8 +1,6 @@
-FROM ubuntu
+FROM python
+
 COPY HTML /var/
+COPY Pyhon/demo.py /usr/app/src/
 
-RUN apt-get update
-RUN apt-get install -y nginx
-
-
-CMD ["echo","Hello"]
+CMD ["python","/usr/app/src/demo.py"]
