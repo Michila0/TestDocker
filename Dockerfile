@@ -1,6 +1,6 @@
 FROM python
 
 COPY HTML /var/
-COPY Python/demo.py /usr/src/app
+COPY Python/demo.py /usr/src/app/
 
-CMD ["python","./demo.py"]
+CMD ["python","/usr/src/app//demo.py"]

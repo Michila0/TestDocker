@@ -1,8 +1,8 @@
 # Docker
  This is a demo to explain Docker and Docker Compose.
 
-Docker: https://docs.docker.com/
-Docker Hub: https://hub.docker.com/search?q=
+* Docker: https://docs.docker.com/
+* Docker Hub: https://hub.docker.com/search?q=
 
 ---
 1. How to build the docker image? 
